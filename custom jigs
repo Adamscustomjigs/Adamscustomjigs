@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Adams Custom Jigs</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Adams Custom Jigs</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="custom.html">Custom Jigs</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Built for Bass. Built to Win.</h2>
+  <p>High-quality bass fishing jigs — custom or ready-made.</p>
+</section>
+
+<section id="ready">
+  <h2 class="section-title">Ready-Made Jigs</h2>
+  <p>Our ready-made jigs are designed for serious bass anglers.
+  Built with strong hooks, durable skirts, and proven color patterns that perform in real fishing conditions.</p>
+</section>
+
+<section id="about" class="section-tan">
+  <h2 class="section-title">About Adams Custom Jigs</h2>
+  <p>Adams Custom Jigs was created by a passionate bass angler who believes
+  the right jig makes all the difference. Every jig is crafted with care,
+  tested on the water, and made to help anglers catch more fish.</p>
+</section>
+
+<footer>
+  <p>Follow Adams Custom Jigs</p>
+  <a href="https://www.tiktok.com/@AdamsCustomJigs" target="_blank">TikTok</a> |
+  <a href="https://www.facebook.com/AdamsCustomJigs" target="_blank">Facebook</a>
+</footer>
+
+</body>
+</html>
