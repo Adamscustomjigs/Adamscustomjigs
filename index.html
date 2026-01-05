@@ -1,0 +1,265 @@
+/* === style.css === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d1a12;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+/* Header / Navigation */
+header {
+  background-color: #112a1b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header h1 {
+  color: #a3d9a5;
+  font-size: 1.8em;
+}
+
+nav a {
+  color: #a3d9a5;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #f0c14b;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #163322;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1100px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  color: #f0f0f0;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #d4f0d4;
+}
+
+/* Sections */
+section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.section-title {
+  font-size: 2em;
+  color: #a3d9a5;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #3a6b49;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Tan/Dark Section Background */
+.section-tan {
+  background-color: #1c2e21;
+}
+
+/* Form Styling */
+.form {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 5px;
+  border: 1px solid #3a6b49;
+  background-color: #0d1a12;
+  color: #f0f0f0;
+  font-size: 1em;
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  font-size: 1em;
+  background-color: #3a6b49;
+  border: none;
+  border-radius: 5px;
+  color: #f0f0f0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #2b4d38;
+}
+
+/* Footer */
+footer {
+  background-color: #112a1b;
+  text-align: center;
+  padding: 25px 10px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #a3d9a5;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #f0c14b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Adams Custom Jigs</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Adams Custom Jigs</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="custom.html">Custom Jigs</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Built for Bass. Built to Win.</h2>
+  <p>High-quality bass fishing jigs — custom or ready-made.</p>
+</section>
+
+<section id="ready">
+  <h2 class="section-title">Ready-Made Jigs</h2>
+  <p>Our ready-made jigs are designed for serious bass anglers.
+  Built with strong hooks, durable skirts, and proven color patterns that perform in real fishing conditions.</p>
+</section>
+
+<section id="about" class="section-tan">
+  <h2 class="section-title">About Adams Custom Jigs</h2>
+  <p>Adams Custom Jigs was created by a passionate bass angler who believes
+  the right jig makes all the difference. Every jig is crafted with care,
+  tested on the water, and made to help anglers catch more fish.</p>
+</section>
+
+<footer>
+  <p>Follow Adams Custom Jigs</p>
+  <a href="https://www.tiktok.com/@AdamsCustomJigs" target="_blank">TikTok</a> |
+  <a href="https://www.facebook.com/AdamsCustomJigs" target="_blank">Facebook</a>
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Custom Jigs | Adams Custom Jigs</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Adams Custom Jigs</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="custom.html">Custom Jigs</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Custom Jig Orders</h2>
+  <p>Submit your custom jig request — built for your style and conditions.</p>
+</section>
+
+<section class="section-tan">
+  <h2 class="section-title">Request a Custom Jig</h2>
+  <form class="form">
+    <label>Name</label>
+    <input type="text" placeholder="Your name">
+
+    <label>Email</label>
+    <input type="email" placeholder="Your email">
+
+    <label>Jig Weight</label>
+    <select>
+      <option>1/4 oz</option>
+      <option>1/2 oz</option>
+    </select>
+
+    <label>Color Preferences</label>
+    <input type="text" placeholder="Dark green, black, accent colors">
+
+    <label>Extra Details</label>
+    <textarea placeholder="Trailer type, skirt style, fishing conditions..."></textarea>
+
+    <button type="submit">Submit Request</button>
+  </form>
+</section>
+
+<footer>
+  <p>Follow Adams Custom Jigs</p>
+  <a href="https://www.tiktok.com/@AdamsCustomJigs" target="_blank">TikTok</a> |
+  <a href="https://www.facebook.com/AdamsCustomJigs" target="_blank">Facebook</a>
+</footer>
+
+</body>
+</html>
